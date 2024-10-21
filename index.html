@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Fátima</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBREMI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--seccion inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fatti.png" alt="img">
+            </div>
+            <h1>Fátima Daruich</h1>
+            <h2>Desarrolladora Full Stack</h2>
+            <h2>Especialización en Front-end</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--seccion sobremi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>#SOBREMI</h2>
+            <p><span>Hola soy Fátima, </span>programadora Full Stack, especializada en front-end, 
+                con capacidad de aprendizaje rápido y adaptabilidad a nuevas tecnologías. 
+                Me apasiona crear experiencias web dinámicas y amigables para el usuario, 
+                utilizando HTML, CSS, Tailwind, JavaScript y React. También tengo experiencia 
+                con Figma y Photoshop. Además, mi trabajo en atención al cliente me ha ayudado 
+                a desarrollar habilidades de comunicación y trabajo en equipo, resolviendo problemas 
+                de manera eficaz como también, habilidades de liderazgo. Siempre dispuesta a enfrentar 
+                nuevos desafíos y aportar valor a proyectos innovadores.</p>
+
+                <div class="fila">
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                03-09-2000
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +54 2983-564889
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                fatimadaruich.fd@gmail.com
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!--seccion sobremi-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>#SKILLS</h2>
+            <div class="skills-grid">                     
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M21 21H3V3h18v18ZM9.1 17.232l-1.368.844c.213.468.559.863.994 1.137c.473.271 1.01.41 1.555.4c.286-.002.57-.035.849-.1a2.108 2.108 0 0 0 1.358-1.058c.28-.66.384-1.382.3-2.094v-.415c.005-1.027 0-2.072 0-3.084v-1.593H11.1v4.897c.05.5.014 1.003-.107 1.49a.786.786 0 0 1-.759.422a1.43 1.43 0 0 1-.416-.063a1.43 1.43 0 0 1-.623-.641l-.033-.056c-.031-.053-.052-.09-.062-.09v.004Zm5.949-.2l-1.373.787c.112.246.268.47.458.662c.047.052.1.108.149.17c.671.6 1.549.918 2.449.887a2.63 2.63 0 0 0 2.7-1.641v-.008c.114-.4.132-.82.053-1.228l.034.049c-.148-.929-.821-1.574-2.252-2.155c-.111-.052-.226-.1-.338-.15c-.445-.192-.865-.372-1.011-.7a.886.886 0 0 1-.034-.529a.762.762 0 0 1 .808-.543c.111 0 .222.016.329.048c.33.11.595.357.732.676c.775-.507.775-.507 1.316-.844a3.247 3.247 0 0 0-.439-.586a2.466 2.466 0 0 0-2-.776h-.12l-.528.067a2.435 2.435 0 0 0-1.283.754a2.354 2.354 0 0 0 .427 3.354c.438.3.91.546 1.407.733c.641.27 1.194.5 1.306.921a.811.811 0 0 1-.135.707a1.3 1.3 0 0 1-1.027.37a2.58 2.58 0 0 1-.313-.02a1.977 1.977 0 0 1-1.317-1.008l.002.003Z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>Typescript</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" viewBox="0 0 24 24"><path fill="#ffffff" d="M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3m-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.7 1.7 0 0 1-.67.74a3 3 0 0 1-1 .39a6 6 0 0 1-1.2.12a7 7 0 0 1-1.23-.11a4.5 4.5 0 0 1-1-.33v-1.71l-.06-.06h.06v.07a3.4 3.4 0 0 0 1 .54a3.1 3.1 0 0 0 1.13.2a2.6 2.6 0 0 0 .6-.06a1.5 1.5 0 0 0 .42-.17a.75.75 0 0 0 .25-.25a.69.69 0 0 0-.06-.74a1.2 1.2 0 0 0-.35-.33a3 3 0 0 0-.53-.3l-.67-.28a3.6 3.6 0 0 1-1.37-1a2 2 0 0 1-.46-1.33a2.16 2.16 0 0 1 .24-1.06a2.1 2.1 0 0 1 .66-.71a2.9 2.9 0 0 1 1-.42a5 5 0 0 1 1.19-.13a7 7 0 0 1 1.09.07a4.5 4.5 0 0 1 .88.23v1.65a2.4 2.4 0 0 0-.42-.24a4 4 0 0 0-.49-.17a3 3 0 0 0-.49-.1a2.5 2.5 0 0 0-.46 0a2.3 2.3 0 0 0-.56.06a1.5 1.5 0 0 0-.43.16a.8.8 0 0 0-.26.25a.63.63 0 0 0-.09.33a.6.6 0 0 0 .1.35a1.2 1.2 0 0 0 .3.29a2.2 2.2 0 0 0 .46.28l.63.28a7 7 0 0 1 .84.42a2.7 2.7 0 0 1 .64.49a1.8 1.8 0 0 1 .42.63a2.5 2.5 0 0 1 .14.85a2.7 2.7 0 0 1-.25 1.08z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="m3 2l1.578 17.824L12 22l7.467-2.175L21 2zm14.049 6.048H9.075l.172 2.016h7.697l-.626 6.565l-4.246 1.381l-4.281-1.455l-.288-2.932h2.024l.16 1.411l2.4.815l2.346-.763l.297-3.005H7.416l-.562-6.05h10.412z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="m3 2l1.578 17.834L12 22l7.468-2.165L21 2zm13.3 14.722l-4.293 1.204H12l-4.297-1.204l-.297-3.167h2.108l.15 1.526l2.335.639l2.34-.64l.245-3.05h-7.27l-.187-2.006h7.64l.174-2.006H6.924l-.176-2.006h10.506z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 10.11c1.03 0 1.87.84 1.87 1.89c0 1-.84 1.85-1.87 1.85S10.13 13 10.13 12c0-1.05.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7c-.52-.59-1.03-1.23-1.51-1.9a23 23 0 0 1-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86c.27.06.57.11.88.16zm6.54-.76l.81-1.5l-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9s-1.17 0-1.71.03c-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47c.54.03 1.11.03 1.71.03s1.17 0 1.71-.03c.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7c.52.59 1.03 1.23 1.51 1.9c.82.08 1.63.2 2.4.36c.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86c-.27-.06-.57-.11-.88-.16zm1.45-7.05c1.47.84 1.63 3.05 1.01 5.63c2.54.75 4.37 1.99 4.37 3.68s-1.83 2.93-4.37 3.68c.62 2.58.46 4.79-1.01 5.63c-1.46.84-3.45-.12-5.37-1.95c-1.92 1.83-3.91 2.79-5.38 1.95c-1.46-.84-1.62-3.05-1-5.63c-2.54-.75-4.37-1.99-4.37-3.68s1.83-2.93 4.37-3.68c-.62-2.58-.46-4.79 1-5.63c1.47-.84 3.46.12 5.38 1.95c1.92-1.83 3.91-2.79 5.37-1.95M17.08 12c.34.75.64 1.5.89 2.26c2.1-.63 3.28-1.53 3.28-2.26s-1.18-1.63-3.28-2.26c-.25.76-.55 1.51-.89 2.26M6.92 12c-.34-.75-.64-1.5-.89-2.26c-2.1.63-3.28 1.53-3.28 2.26s1.18 1.63 3.28 2.26c.25-.76.55-1.51.89-2.26m9 2.26l-.3.51c.31-.05.61-.1.88-.16c-.07-.28-.18-.57-.29-.86zm-2.89 4.04c1.59 1.5 2.97 2.08 3.59 1.7c.64-.35.83-1.82.32-3.96c-.77.16-1.58.28-2.4.36c-.48.67-.99 1.31-1.51 1.9M8.08 9.74l.3-.51c-.31.05-.61.1-.88.16c.07.28.18.57.29.86zm2.89-4.04C9.38 4.2 8 3.62 7.37 4c-.63.35-.82 1.82-.31 3.96a23 23 0 0 1 2.4-.36c.48-.67.99-1.31 1.51-1.9"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>Next.js</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M18.665 21.978A11.94 11.94 0 0 1 12 24C5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251zm-3.332-8.533l1.6 2.061V7.2h-1.6z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>Astro</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944c.856 1.026 2.043 1.352 3.272 1.535c1.897.283 3.76.177 5.522-.678c.202-.098.388-.229.608-.36c.166.473.209.95.151 1.437c-.14 1.185-.738 2.1-1.688 2.794c-.38.277-.782.525-1.175.787c-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.16 3.16 0 0 1-1.407-1.188a3.3 3.3 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958c-.106-.769-.472-1.113-1.161-1.133c-.707-.02-1.267.411-1.415 1.09c-.012.053-.028.104-.045.165zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614s.57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727z"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>Tailwind</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12"/></svg>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#ffffff"><circle cx="15" cy="12" r="3"/><path d="M9 21a3 3 0 0 0 3-3v-3H9a3 3 0 1 0 0 6m3-12v6H9a3 3 0 1 1 0-6zm0-6v6H9a3 3 0 0 1 0-6zm0 0v6h3a3 3 0 1 0 0-6z"/></g></svg>
+       
+               </div> 
+            </div>
+        </div>
+    </section>
+    <!--seccion curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>#CURRICULUM</h2>
+            <div class="fila">
+               <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                  <h4>Carrera de medicina</h4>  
+                  <span class="casa">Universidad Nacional de Mar del Plata</span>
+                  <span class="fecha">2018 - 2022</span>
+                  <p>Carrera de medicina, 1er y 2do año.</p>
+                </div>
+                <div class="item izq">
+                    <h4>Desarrollo Full Stack</h4>  
+                    <span class="casa">Henry</span>
+                    <span class="fecha">2024</span>
+                    <p>Certificado - Full Stack Developer</p>
+                    <p>ver certificado</p>
+                  </div>
+               </div> 
+               <div class="col derecha">
+                <h3>Experiancia laboral</h3>
+                <div class="item izq">
+                  <h4>Teaching Assistant (TA)</h4>  
+                  <span class="casa">Henry</span>
+                  <span class="fecha">2024</span>
+                  <p>Desarrollo de habilidades blandas, liderazgo y gestión de equipos.</p>
+                </div>
+                <div class="item izq">
+                    <h4>Jefa de barra en evento privado</h4>  
+                    <span class="casa">Candy</span>
+                    <span class="fecha">2021 - 2024</span>
+                    <p>Supervisión de empleados, habilidades como barman, responsable de stock y de caja.</p>
+                  </div>
+                  <div class="item izq">
+                    <h4>Camarera</h4>  
+                    <span class="casa">Restaurante "La Herencia" y Café "Bistró"</span>
+                    <span class="fecha">2023</span>
+                    <p>Atención al cliente, habilidades de barista, toma de pedidos, manejo de caja y habilidades de comunicación. </p>
+                  </div>
+                  <div class="item izq">
+                    <h4>Administración de hospedajes</h4>  
+                    <span class="casa">Camping Dunamar</span>
+                    <span class="fecha">Temporada de verano 2020</span>
+                    <p>Atención al cliente efectiva y personalizada, gestión de reservas y pagos. </p>
+                  </div>
+               </div> 
+            </div>
+        </div>
+    </section>
+     <!--seccion portafolio-->
+     <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>#PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/1.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/2.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/3.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/4.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/5.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/6.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/7.jpeg" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/8.jpeg" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/9.jpeg" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/10.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/11.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/12.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/14.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/14.png" alt="image">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+     </section>
+     <!--seccion contacto-->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>#CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número de teléfono">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +54 2983-564889
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Provincia de Buenos Aires
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelop"></i>
+                                fatimadaruich.fd@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+      <!--FOOTER-->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
